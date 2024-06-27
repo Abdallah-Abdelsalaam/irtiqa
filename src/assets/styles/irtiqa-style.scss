@@ -1,3 +1,19 @@
 body {
   background-color: red !important;
 }
+.enhanced-banner-grid .enhanced-item>div:nth-child(1) {
+    width: 40%;
+}
+.enhanced-banner-grid .enhanced-item {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media (max-width: 992px) {
+  .enhanced-banner-grid .enhanced-item>div:nth-child(1) {
+    width: 50%;
+}
+  .enhanced-banner-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
