@@ -2,7 +2,7 @@
     <div class="container" style="{% if component.switch_abd_01 %} padding: 0px !important; width: 100%; max-width: 100%; {% endif %}">
         {% if component.switch01 %}
             {% for item in component %}
-                <a href="{{ item.url }}" class="banner banner--fixed overflow-hidden" aria-label="Banner {{ image.alt }}">
+                <a href="{{ url }}" class="banner banner--fixed overflow-hidden" aria-label="Banner {{ image.alt }}">
                     <img width="1200" height="300" src="{{ component.image }}" style="{% if component.switch_abd_01 %} border-radius: 0px; {% endif %}" />
                 </a>
             {% endfor %}
