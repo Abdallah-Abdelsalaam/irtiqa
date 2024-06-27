@@ -16,6 +16,22 @@ body {
 .enhanced-banner-grid .enhanced-item>div:nth-child(1) img:hover {
     transform: scale(1.11);
 }
+.enhanced-banner-grid .enhanced-item > div:nth-child(2) > a {
+    background: black;
+    color: #eee;
+    padding: 8px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    border-radius: 10px;
+    width: 76%;
+}
+.enhanced-banner-grid .enhanced-item > div:nth-child(2) > p {
+    line-height: 1.6;
+    font-size: 14px;
+    color: #777;
+}
 @media (max-width: 992px) {
   .enhanced-banner-grid .enhanced-item>div:nth-child(1) {
     width: 50%;
