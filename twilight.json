@@ -854,7 +854,7 @@
                     "icon": "sicon-link",
                     "label": "الرابط",
                     "id": "url",
-                    "value": null,
+                    "value": [],
                     "description": null,
                     "required": false,
                     "format": "variable-list",
@@ -941,6 +941,15 @@
                             "icon": "sicon-image",
                             "value": null,
                             "required": false
+                        },
+                        {
+                            "id": "collection_abd_01.abd_title_01",
+                            "type": "static",
+                            "format": "title",
+                            "label": "العنوان اسفل تصميم التصنيف",
+                            "value": null,
+                            "variant": "h1",
+                            "icon": "sicon-format-text"
                         }
                     ],
                     "value": [],
