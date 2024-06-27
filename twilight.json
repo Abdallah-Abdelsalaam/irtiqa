@@ -925,7 +925,7 @@
                     "type": "collection",
                     "format": "collection",
                     "label": "أضف بعض الأقسام أسفل البنر المتقدم",
-                    "description": "اضف 6 اقسام فقط اسفل البنر المتقدم",
+                    "description": "اضف قمسين فقط اسفل البنر المتقدم",
                     "labelHTML": null,
                     "item_label": null,
                     "icon": "sicon-list-add",
@@ -956,6 +956,15 @@
                             "required": false,
                             "minLength": 6,
                             "maxLength": 30
+                        },
+                        {
+                            "id": "collection_abd_01.description_abd_01",
+                            "type": "static",
+                            "format": "description",
+                            "label": "الوصف",
+                            "value": "اضف وصف بسيط عن التصنيف",
+                            "variant": "h1",
+                            "icon": "sicon-format-size"
                         },
                         {
                             "type": "items",
@@ -1024,7 +1033,7 @@
                     ],
                     "value": [],
                     "minLength": 1,
-                    "maxLength": "6"
+                    "maxLength": "2"
                 }
             ]
         }
