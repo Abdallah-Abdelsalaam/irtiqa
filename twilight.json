@@ -959,12 +959,18 @@
                         },
                         {
                             "id": "collection_abd_01.description_abd_01",
-                            "type": "static",
-                            "format": "description",
+                            "type": "string",
+                            "format": "text",
                             "label": "الوصف",
-                            "value": "اضف وصف بسيط عن التصنيف",
-                            "variant": "h1",
-                            "icon": "sicon-format-size"
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": "اضف وصف بسيط عن القسم  اضف وصف بسيط عن القسم  اضف وصف بسيط",
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": "90"
                         },
                         {
                             "type": "items",
