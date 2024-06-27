@@ -1013,15 +1013,15 @@
                                     "key": "custom",
                                     "value": "custom"
                                 }
-                            ],
+                            ]
                         }
                     ],
                     "value": [],
                     "minLength": 1,
                     "maxLength": "6"
-                }
-            ]
-        }
+                },
+            ],
+        },
     ],
     "support_url": null,
     "description": {
