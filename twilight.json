@@ -806,6 +806,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "f7d48029-2368-43a8-93fe-5ce6a6398472",
+            "title": "بنر متقدم",
+            "icon": "sicon-store",
+            "path": "home.enhanced-custome-banner",
+            "fields": []
         }
     ],
     "support_url": null,
