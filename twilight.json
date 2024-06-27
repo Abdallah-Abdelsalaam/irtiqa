@@ -911,6 +911,13 @@
                             "key": "custom",
                             "value": "custom"
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "id": "switch01",
+                            "operation": "=",
+                            "value": true
+                        }
                     ]
                 },
                 {
