@@ -978,7 +978,7 @@
                             "label": "الرابط",
                             "id": "collection_abd_01.url_abd_01",
                             "value": [],
-                            "description": null,
+                            "description": "اضف رابط على الصوره",
                             "required": false,
                             "format": "variable-list",
                             "searchable": true,
