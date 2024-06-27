@@ -943,19 +943,10 @@
                             "required": false
                         },
                         {
-                            "id": "collection_abd_01.abd_title_01",
-                            "type": "static",
-                            "format": "title",
-                            "label": "العنوان اسفل تصميم التصنيف",
-                            "value": null,
-                            "variant": "h1",
-                            "icon": "sicon-format-text"
-                        },
-                        {
                             "type": "items",
                             "icon": "sicon-link",
                             "label": "الرابط",
-                            "id": "url",
+                            "id": "collection_abd_01.url_abd_01",
                             "value": [],
                             "description": null,
                             "required": false,
