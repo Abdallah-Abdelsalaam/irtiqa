@@ -29,7 +29,6 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "وضع عمودي للمنتجات في مربع المنتجات الثابتة في الصفحة الرئيسية",
-            "description": "",
             "id": "vertical_fixed_products",
             "format": "switch",
             "required": false,
@@ -69,7 +68,6 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "شريط علوي داكن",
-            "description": "",
             "id": "topnav_is_dark",
             "format": "switch",
             "required": false,
@@ -80,7 +78,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "عرض روابط الصفحات الهامة في الشريط العلوي",
-            "description": "مثل صفحة الهبوط ، المدونة ،الصفحات التعريفية ",
+            "description": "مثل صفحة الهبوط ، المدونة ،الصفحات التعريفية",
             "id": "important_links",
             "format": "switch",
             "required": false,
@@ -103,7 +101,6 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "الوضع الداكن",
-            "description": "",
             "id": "footer_is_dark",
             "format": "switch",
             "required": false,
@@ -126,7 +123,6 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "تثبيت زر الإضافة والكمية أسفل شاشة الجوال",
-            "description": "",
             "id": "sticky_add_to_cart",
             "format": "switch",
             "required": false,
@@ -137,7 +133,6 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "اظهار الوسوم",
-            "description": "",
             "id": "show_tags",
             "format": "switch",
             "required": false,
@@ -149,9 +144,6 @@
             "type": "items",
             "format": "dropdown-list",
             "label": "طريقة عرض الصور في سليدر صور المنتج",
-            "description": "",
-            "labelHTML": null,
-            "icon": "sicon-list",
             "selected": [
                 {
                     "label": "اظهار الصورة كاملةً في المنتصف (Contain)",
@@ -219,12 +211,10 @@
                         {
                             "type": "string",
                             "icon": "sicon-image",
-                            "value": null,
                             "id": "slides.image",
                             "label": "صورة البنر",
                             "format": "image",
                             "required": true,
-                            "placeholder": "",
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
                         },
                         {
@@ -233,13 +223,7 @@
                             "label": "عنوان رئيسي",
                             "multilanguage": true,
                             "id": "slides.title",
-                            "value": null,
-                            "required": false,
                             "format": "text",
-                            "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
-                            "placeholder": "يمكنك إضافة عنوان بارز هنا...",
-                            "hide": false,
-                            "minLength": 0,
                             "maxLength": 100
                         },
                         {
@@ -248,12 +232,7 @@
                             "label": "نص إضافي",
                             "multilanguage": true,
                             "id": "slides.description",
-                            "value": null,
-                            "description": "يتم عرضه على الصورة بحجم أصغر من العنوان الرئيسي، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
                             "format": "textarea",
-                            "required": false,
-                            "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
-                            "minLength": 0,
                             "maxLength": 255
                         }
                     ]
@@ -298,19 +277,13 @@
                     "label": "العنوان",
                     "multilanguage": true,
                     "id": "title",
-                    "value": null,
-                    "required": false,
                     "format": "text",
-                    "description": null,
-                    "placeholder": "أدخل العنوان هنا...",
-                    "minLength": 0,
                     "maxLength": 100
                 },
                 {
                     "type": "boolean",
                     "icon": "sicon-toggle-off",
                     "label": "دمج مع العنصر السابق",
-                    "description": null,
                     "id": "merge_with_top_component",
                     "format": "switch",
                     "required": false,
@@ -327,7 +300,6 @@
                     "type": "boolean",
                     "icon": "sicon-toggle-off",
                     "label": "عرض أسهم التحرك",
-                    "description": "",
                     "id": "show_controls",
                     "format": "switch",
                     "required": false,
@@ -350,7 +322,6 @@
                     "type": "items",
                     "format": "dropdown-list",
                     "label": "حدد التصنيفات",
-                    "labelHTML": null,
                     "icon": "sicon-keyboard_arrow_down",
                     "selected": [],
                     "options": [],
@@ -396,21 +367,14 @@
                             "id": "links.icon",
                             "value": "sicon-store2",
                             "required": false,
-                            "format": "icon",
-                            "class": "form--inline",
-                            "description": null
+                            "format": "icon"
                         },
                         {
                             "type": "string",
                             "icon": "sicon-format-text-alt",
                             "multilanguage": true,
                             "id": "links.title",
-                            "value": null,
-                            "required": false,
                             "format": "text",
-                            "description": null,
-                            "placeholder": "أدخل عنوان للرابط هنا...",
-                            "minLength": 2,
                             "maxLength": 80
                         },
                         {
@@ -418,9 +382,6 @@
                             "icon": "sicon-link",
                             "label": "الرابط",
                             "id": "links.url",
-                            "value": null,
-                            "description": null,
-                            "required": false,
                             "format": "variable-list",
                             "searchable": true,
                             "source": "custom",
@@ -475,14 +436,15 @@
                                     "key": "custom",
                                     "value": "custom"
                                 }
+                            ],
+                            "required": false,
+                            "conditions": [
+                                {
+                                    "id": "show_cats",
+                                    "operation": "=",
+                                    "value": false
+                                }
                             ]
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "id": "show_cats",
-                            "operation": "=",
-                            "value": false
                         }
                     ]
                 }
@@ -506,11 +468,7 @@
                     "label": "العنوان",
                     "multilanguage": true,
                     "id": "title",
-                    "required": false,
                     "format": "text",
-                    "description": "",
-                    "placeholder": "أدخل العنوان هنا...",
-                    "minLength": 0,
                     "maxLength": 200,
                     "value": {
                         "ar": "تصفح من خلال العلامات التجارية",
@@ -523,9 +481,6 @@
                     "label": "الماركات التجارية",
                     "id": "brands",
                     "format": "dropdown-list",
-                    "description": "",
-                    "selected": [],
-                    "options": [],
                     "required": true,
                     "multichoice": true,
                     "searchable": true,
@@ -548,17 +503,11 @@
                 {
                     "type": "string",
                     "icon": "sicon-image",
-                    "value": null,
                     "label": "صورة الخلفية",
                     "id": "background",
                     "format": "image",
                     "required": true,
-                    "placeholder": null,
-                    "description": "* المقاس المناسب للصورة هو 1233×500 بكسل",
-                    "settings": {
-                        "height": 580,
-                        "width": 1400
-                    }
+                    "description": "* المقاس المناسب للصورة هو 1233×500 بكسل"
                 },
                 {
                     "type": "string",
@@ -566,14 +515,8 @@
                     "label": "عنوان رئيسي",
                     "multilanguage": true,
                     "id": "title",
-                    "value": null,
-                    "required": false,
                     "format": "text",
-                    "description": null,
-                    "placeholder": "يمكنك إضافة العنوان الرئيسي هنا...",
-                    "hide": false,
-                    "minLength": 0,
-                    "maxLength": "80"
+                    "maxLength": 80
                 },
                 {
                     "type": "string",
@@ -581,13 +524,8 @@
                     "label": "نص توضيحي",
                     "multilanguage": true,
                     "id": "description",
-                    "value": null,
-                    "description": null,
                     "format": "textarea",
-                    "required": false,
-                    "placeholder": "يمكنك إضافة وصف لهذا القسم هنا...",
-                    "minLength": 0,
-                    "maxLength": "256"
+                    "maxLength": 256
                 },
                 {
                     "type": "items",
@@ -595,13 +533,10 @@
                     "label": "منتجات",
                     "id": "products",
                     "format": "dropdown-list",
-                    "description": null,
-                    "selected": [],
-                    "options": [],
                     "required": true,
                     "multichoice": true,
-                    "source": "products",
                     "searchable": true,
+                    "source": "products",
                     "maxLength": 8,
                     "minLength": 1,
                     "value": []
@@ -611,9 +546,6 @@
                     "icon": "sicon-link",
                     "label": "رابط عرض الكل",
                     "id": "display_all_url",
-                    "value": [],
-                    "description": "عند إختيار رابط فارغ سيتم إخفاء زر 'عرض الكل'",
-                    "required": false,
                     "format": "variable-list",
                     "searchable": true,
                     "source": "custom",
@@ -668,7 +600,9 @@
                             "key": "custom",
                             "value": "custom"
                         }
-                    ]
+                    ],
+                    "description": "عند إختيار رابط فارغ سيتم إخفاء زر 'عرض الكل'",
+                    "required": false
                 }
             ]
         },
@@ -692,32 +626,23 @@
                     "minLength": 1,
                     "maxLength": 5,
                     "label": "قائمة الصور",
-                    "item_label": "صورة ",
+                    "item_label": "صورة",
                     "value": [],
                     "fields": [
                         {
                             "type": "string",
                             "icon": "sicon-image",
-                            "value": null,
                             "label": "صورة البنر",
                             "id": "banners.image",
                             "format": "image",
                             "required": true,
-                            "placeholder": "",
-                            "description": "* المقاس المناسب للصورة هو 640×427 بكسل",
-                            "settings": {
-                                "height": 427,
-                                "width": 640
-                            }
+                            "description": "* المقاس المناسب للصورة هو 640×427 بكسل"
                         },
                         {
                             "type": "items",
                             "icon": "sicon-link",
                             "label": "الرابط",
                             "id": "banners.url",
-                            "value": null,
-                            "description": "",
-                            "required": false,
                             "format": "variable-list",
                             "searchable": true,
                             "source": "custom",
@@ -772,7 +697,8 @@
                                     "key": "custom",
                                     "value": "custom"
                                 }
-                            ]
+                            ],
+                            "required": false
                         },
                         {
                             "type": "string",
@@ -780,13 +706,7 @@
                             "label": "عنوان رئيسي",
                             "multilanguage": true,
                             "id": "banners.title",
-                            "value": null,
-                            "required": false,
                             "format": "text",
-                            "description": "نص يتم إضافته على الصورة بنمط خط كبير",
-                            "placeholder": "أدخل النص هنا...",
-                            "hide": false,
-                            "minLength": 0,
                             "maxLength": 100
                         },
                         {
@@ -795,12 +715,7 @@
                             "label": "نص توضيحي",
                             "multilanguage": true,
                             "id": "banners.description",
-                            "value": null,
-                            "description": "نص يتم إضافته على الصورة بخط أصغر من العنوان الرئيسي",
                             "format": "textarea",
-                            "required": false,
-                            "placeholder": "Your text here",
-                            "minLength": 0,
                             "maxLength": 255
                         }
                     ]
@@ -818,12 +733,8 @@
                     "type": "string",
                     "format": "image",
                     "label": "Image",
-                    "description": null,
-                    "labelHTML": null,
                     "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false
+                    "icon": "sicon-image"
                 },
                 {
                     "id": "switch_abd_01",
@@ -831,7 +742,6 @@
                     "format": "switch",
                     "label": "البنر بعرض الشاشة كامل",
                     "description": "عرض البنر بعرض الشاشة (المقاس المناسب  px  2000*750 )",
-                    "labelHTML": null,
                     "icon": "sicon-toggle-off",
                     "value": true,
                     "selected": true,
@@ -842,8 +752,6 @@
                     "type": "boolean",
                     "format": "switch",
                     "label": "وضع تصنيف عالبنر المتقدم",
-                    "description": null,
-                    "labelHTML": null,
                     "icon": "sicon-toggle-off",
                     "value": true,
                     "selected": true,
@@ -854,9 +762,6 @@
                     "icon": "sicon-link",
                     "label": "الرابط",
                     "id": "url",
-                    "value": [],
-                    "description": null,
-                    "required": false,
                     "format": "variable-list",
                     "searchable": true,
                     "source": "custom",
@@ -926,8 +831,6 @@
                     "format": "collection",
                     "label": "أضف بعض الأقسام أسفل البنر المتقدم",
                     "description": "اضف 6 اقسام فقط اسفل البنر المتقدم",
-                    "labelHTML": null,
-                    "item_label": null,
                     "icon": "sicon-list-add",
                     "fields": [
                         {
@@ -935,19 +838,14 @@
                             "type": "string",
                             "format": "image",
                             "label": "Image 1",
-                            "description": "تصميم التصنيف أسفل البنر المتقدك",
-                            "labelHTML": null,
                             "placeholder": "e.g. https://hostname.com/image.png",
-                            "icon": "sicon-image",
-                            "value": null,
-                            "required": false
+                            "icon": "sicon-image"
                         },
                         {
                             "id": "collection_abd_01.abd_title_01",
                             "type": "static",
                             "format": "title",
                             "label": "العنوان اسفل تصميم التصنيف",
-                            "value": null,
                             "variant": "h1",
                             "icon": "sicon-format-text"
                         },
@@ -956,9 +854,6 @@
                             "icon": "sicon-link",
                             "label": "الرابط",
                             "id": "url",
-                            "value": [],
-                            "description": null,
-                            "required": false,
                             "format": "variable-list",
                             "searchable": true,
                             "source": "custom",
