@@ -812,7 +812,71 @@
             "title": "بنر متقدم",
             "icon": "sicon-expert",
             "path": "home.enhanced-custome-banner",
-            "fields": []
+            "fields": [
+                {
+                    "id": "image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Image",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                },
+                {
+                    "id": "switch_abd_01",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "البنر بعرض الشاشة كامل",
+                    "description": "عرض البنر بعرض الشاشة (المقاس المناسب  px  2000*750 )",
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": true,
+                    "required": false
+                },
+                {
+                    "id": "switch_abd_02",
+                    "type": "boolean",
+                    "format": "switch",
+                    "label": "وضع تصنيف عالبنر المتقدم",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-toggle-off",
+                    "value": true,
+                    "selected": true,
+                    "required": false
+                },
+                {
+                    "id": "collection_abd_01",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "أضف بعض الأقسام أسفل البنر المتقدم",
+                    "description": "اضف 6 اقسام فقط اسفل البنر المتقدم",
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "collection_abd_01.image_1",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image 1",
+                            "description": "تصميم التصنيف أسفل البنر المتقدك",
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": "6"
+                }
+            ]
         }
     ],
     "support_url": null,
