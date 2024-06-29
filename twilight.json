@@ -1106,6 +1106,13 @@
                     "maxLength": "3"
                 }
             ]
+        },
+        {
+            "key": "de6de1db-a1f2-4c7c-b2ff-4573c409b88a",
+            "title": "عنوان متقدم",
+            "icon": "sicon-store",
+            "path": "home.enhaced-title",
+            "fields": []
         }
     ],
     "support_url": null,
