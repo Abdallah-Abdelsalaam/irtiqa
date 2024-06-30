@@ -1112,7 +1112,38 @@
             "title": "عنوان متقدم",
             "icon": "sicon-format-size",
             "path": "home.enhaced-title",
-            "fields": []
+            "fields": [
+                {
+                    "id": "section_title_01",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان الرئيسي",
+                    "description": "اضف عنوان السيكشن",
+                    "labelHTML": null,
+                    "placeholder": "عنوان السيكشن",
+                    "icon": "sicon-format-text-alt",
+                    "value": "عنوان السيكشن",
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "title_description_01",
+                    "type": "string",
+                    "format": "text",
+                    "label": "الوصف",
+                    "description": "وصف بسيط اسفل العنوان الرئيسي",
+                    "labelHTML": null,
+                    "placeholder": "وصف بسيط لعنوان السيكشن هنا",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                }
+            ]
         }
     ],
     "support_url": null,
