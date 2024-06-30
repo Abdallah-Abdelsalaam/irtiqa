@@ -921,6 +921,36 @@
                     ]
                 },
                 {
+                    "id": "enhanced_banner_title_01",
+                    "type": "string",
+                    "format": "text",
+                    "label": "عنوان رئيسي للتصنيفات",
+                    "description": null,
+                    "labelHTML": "مثال : الأقسام الأساسية",
+                    "placeholder": "اضف عنوان رئيسي للتصنيفات",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "enhanced_banner_description_01",
+                    "type": "string",
+                    "format": "text",
+                    "label": "الوصف",
+                    "description": null,
+                    "labelHTML": "مثال : تصفح أفضل المنتجات معنا",
+                    "placeholder": "وصف بسيط اسفل العنوان الرئيسي",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "150"
+                },
+                {
                     "id": "collection_abd_01",
                     "type": "collection",
                     "format": "collection",
