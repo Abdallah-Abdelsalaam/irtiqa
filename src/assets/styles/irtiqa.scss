@@ -2,7 +2,7 @@ body *:not(i) {
   font-family: 'Cairo' !important ;
 }
 .enhanced-banner-grid .enhanced-item>div:nth-child(1) {
-  width: 50%;
+  width: 75%;
 }
 .enhanced-banner-grid .enhanced-item {
   background-color: white;
@@ -29,7 +29,7 @@ body *:not(i) {
 }
 .enhanced-banner-grid .enhanced-item > div:nth-child(2) > p {
   line-height: 1.6;
-  font-size: 14px;
+  font-size: 13px;
   color: #777;
 }
 @media (max-width: 992px) {
