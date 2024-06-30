@@ -17,15 +17,15 @@ body *:not(i) {
   transform: scale(1.11);
 }
 .enhanced-banner-grid .enhanced-item > div:nth-child(2) > a {
-  background: #2e6bc6;
-  color: #eee;
-  padding: 8px 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 12px;
-  border-radius: 10px;
-  width: 76%;
+    background: #2e6bc6;
+    color: #eee;
+    padding: 6px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    border-radius: 10px;
+    font-size: 14px;
 }
 .enhanced-banner-grid .enhanced-item > div:nth-child(2) > p {
   line-height: 1.6;
