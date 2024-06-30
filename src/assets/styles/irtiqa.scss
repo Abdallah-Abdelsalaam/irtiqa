@@ -40,3 +40,53 @@ body *:not(i) {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
+
+
+/* Start [Enhanced banner title] */
+.enhanced-banner-title {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 26px;
+  position: relative;
+}
+.enhanced-banner-title::before {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(45deg, var(--color-primary), black);
+  border-radius: 10px;
+  z-index: 2;
+}
+.enhanced-banner-title::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 1px;
+  background: linear-gradient(45deg, var(--color-primary), black);
+  border-radius: 10px;
+  z-index: 1;
+}
+.enhanced-banner-title > h3 {
+  font-weight: bold;
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  padding-bottom: 7px;
+}
+.enhanced-banner-title > p {
+  color: #777;
+  line-height: 1.7;
+}
+@media (max-width: 992px) {
+  .enhanced-banner-title > p {
+    padding: 0px 15px;
+  }
+}
+/* End [Enhanced banner title] */
