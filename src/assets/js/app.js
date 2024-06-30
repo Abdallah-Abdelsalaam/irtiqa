@@ -315,3 +315,25 @@ isElementLoaded(selector){
 }
 
 salla.onReady(() => (new App).loadTheApp());
+
+// import font google
+let afterMeta = document.querySelector('head > meta:nth-of-type(3)');
+let customeFont01 = document.createElement('link');
+let customeFont02 = document.createElement('link');
+let customeFont03 = document.createElement('link');
+
+customeFont01.setAttribute('rel', 'preconnect');
+customeFont01.setAttribute('href', 'https://fonts.googleapis.com');
+
+customeFont02.setAttribute('rel', 'preconnect');
+customeFont02.setAttribute('href', 'https://fonts.gstatic.com');
+customeFont02.setAttribute('crossorigin', '');
+
+customeFont02.setAttribute('href', 'https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+customeFont02.setAttribute('rel', 'stylesheet');
+
+afterMeta.after(customeFont01);
+afterMeta.after(customeFont02);
+afterMeta.after(customeFont03);
+
+
