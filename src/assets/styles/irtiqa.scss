@@ -58,7 +58,7 @@ body *:not(i) {
   transform: translateX(-50%);
   width: 80px;
   height: 5px;
-  background: linear-gradient(45deg, var(--color-primary), black);
+  background: linear-gradient(45deg, var(--color-primary), var(--color-primary-alt));
   border-radius: 10px;
   z-index: 2;
 }
@@ -70,7 +70,7 @@ body *:not(i) {
   transform: translateX(-50%);
   width: 180px;
   height: 1px;
-  background: linear-gradient(45deg, var(--color-primary), black);
+  background: linear-gradient(45deg, var(--color-primary), var(--color-primary-alt));
   border-radius: 10px;
   z-index: 1;
 }
@@ -83,6 +83,7 @@ body *:not(i) {
 .enhanced-banner-title > p {
   color: #777;
   line-height: 1.7;
+  font-size: 12px;
 }
 @media (max-width: 992px) {
   .enhanced-banner-title > p {
