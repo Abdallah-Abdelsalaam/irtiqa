@@ -1174,6 +1174,13 @@
                     "maxLength": "200"
                 }
             ]
+        },
+        {
+            "key": "fc826f28-039d-4ea5-94a7-9b4efc8b5693",
+            "title": "سلايدر متقدم",
+            "icon": "sicon-frame-image",
+            "path": "home.enhancedSlider",
+            "fields": []
         }
     ],
     "support_url": null,
