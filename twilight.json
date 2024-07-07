@@ -850,6 +850,36 @@
                     "required": false
                 },
                 {
+                    "id": "enhanced_cutome_title_01",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان على البنر المتقدم",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": "عنوان البنر المتقدم",
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "enhanced_description_02",
+                    "type": "string",
+                    "format": "text",
+                    "label": "الوصف",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": "الوصف هنا",
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
                     "type": "items",
                     "icon": "sicon-link",
                     "label": "الرابط",
