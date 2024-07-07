@@ -167,3 +167,25 @@ body *:not(i) {
   }
 }
 /* End [Enhanced banner title] */
+
+/*Start [Edits Product Card]*/
+.s-product-card-entry {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+.s-product-card-image {
+  height: 15rem !important;
+  max-height: 15rem;
+}
+.s-product-card-image {
+  border-radius: 20px 20px 0px 0px;
+}
+button.s-button-btn[product-type="product"] {
+  background-color: var(--color-primary);
+  color: var(--color-grey);
+  border: 0px !important;
+  border-radius: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*End [Edits Product Card]*/
