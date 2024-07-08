@@ -34,61 +34,48 @@
             <h3> {{ component.enhanced_banner_title_01 }} </h3>
             <p> {{ component.enhanced_banner_description_01 }} </p>
         </div>
+
+        {% if component.akhtr_shkl_otqset_altsnefat == 'cat_01' %}
         <div class="grid grid-cols-3 gap-4 enhanced-banner-grid mb-5">
             {% for custome in component.collection_abd_01 %}
-                <div class="flex items-center enhanced-item">
-                    <div>
-                        <a href="{{ custome.url_abd_01 }}" class="enhanced-cat-link">
-                            <img style=" max-width: 100%; height: auto; " src="{{ custome.image_1 }}" />
-                        </a>
-                    </div>
-                    <div class="p-3">
-                        <h3>{{ custome.title_abd_01 }}</h3>
-                        <p>{{ custome.description_abd_01 }}</p>
-                        <a class="" href="{{ custome.url_abd_02 }}" target="_blank">  <i class="fa-solid fa-arrow-left fa-fw"></i>  تسوق الان</a>
-                    </div>
+            <div class="flex items-center enhanced-item">
+                <div>
+                <a href="{{ custome.url_abd_01 }}" class="enhanced-cat-link">
+                    <img style=" max-width: 100%; height: auto; " src="{{ custome.image_1 }}" />
+                </a>
                 </div>
+                <div class="p-3">
+                <h3>{{ custome.title_abd_01 }}</h3>
+                <p>{{ custome.description_abd_01 }}</p>
+                <a class="" href="{{ custome.url_abd_02 }}" target="_blank">  <i class="fa-solid fa-arrow-left fa-fw"></i>  تسوق الان</a>
+                </div>
+            </div>
             {% endfor %}
         </div>
-
-
-
-
-
-
+        {% else %}
+        {% if component.akhtr_shkl_otqset_altsnefat == 'cat_02' %}
         <div class="irtiqa-grid">
             {% for custome in component.collection_abd_01 %}
-                <div class="flex items-center irtiqa-grid-item">
-                    <div>
-                        <a href="{{ custome.url_abd_01 }}" class="enhanced-cat-link">
-                            <img style=" max-width: 100%; height: auto; " src="{{ custome.image_1 }}" />
-                        </a>
-                    </div>
-                    {# <div class="enhanced-cat-title">
-                        <h3>{{ custome.title_abd_01 }}</h3>
-                    </div> #}
-                    <div class="irtqia-grid-item-content">
-                        <h3>{{ custome.title_abd_01 }}</h3>
-                        <p>{{ custome.description_abd_01 }}</p>
-                        <a class="enhanced-cat-btn" href="{{ custome.url_abd_02 }}" target="_blank">  <i class="fa-solid fa-arrow-left fa-fw"></i>  تسوق الان</a>
-                    </div>
+            <div class="flex items-center irtiqa-grid-item">
+                <div>
+                <a href="{{ custome.url_abd_01 }}" class="enhanced-cat-link">
+                    <img style=" max-width: 100%; height: auto; " src="{{ custome.image_1 }}" />
+                </a>
                 </div>
+                <div class="irtqia-grid-item-content">
+                <h3>{{ custome.title_abd_01 }}</h3>
+                <p>{{ custome.description_abd_01 }}</p>
+                <a class="enhanced-cat-btn" href="{{ custome.url_abd_02 }}" target="_blank">  <i class="fa-solid fa-arrow-left fa-fw"></i>  تسوق الان</a>
+                </div>
+            </div>
             {% endfor %}
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
+        {% else %}
+            <div class="another-grid">
+            ... (content for condition 3)
+            </div>
+        {% endif %}
+        {% endif %}
 
     </div>
-
-
 </section>
