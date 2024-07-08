@@ -986,7 +986,7 @@
                     "format": "dropdown-list",
                     "label": "اختر شكل وتقسية التصنيفات",
                     "description": "اختر الشكل المميز لك",
-                    "labelHTML": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/square-photos.jpg?v=1.1'></div>",
+                    "labelHTML": "<div ><h6 >معاينة العنصر</h6><img src='https://wordpress-912986-4607396.cloudwaysapps.com/wp-content/uploads/2024/07/متجر-تجريبي-2.png'></div><div ><h6 >معاينة العنصر</h6><img src='https://wordpress-912986-4607396.cloudwaysapps.com/wp-content/uploads/2024/07/متجر-تجريبي-1.png'></div>",
                     "icon": "sicon-keyboard_arrow_down",
                     "selected": [],
                     "options": [
