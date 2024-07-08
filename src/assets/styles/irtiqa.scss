@@ -188,3 +188,97 @@ button.s-button-btn[product-type="product"] {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 /*End [Edits Product Card]*/
+
+
+/* Start [Irtiqa Grid Section] */
+.irtiqa-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+@media (max-width: 992px) {
+  .irtiqa-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+  }
+}
+.irtiqa-grid > div:nth-child(1) {
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+  justify-content: center;
+}
+.irtiqa-grid-item {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  .irtiqa-grid-item {
+    padding-bottom: 7.3rem;
+  }
+}
+.irtiqa-grid-item > div:first-child img {
+  transition: 0.5s;
+}
+.irtiqa-grid-item:hover > div:first-child img {
+  transform: scale(0.9) rotate(-2deg) translate(-10px, -10px);
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.enhanced-cat-title {
+  position: absolute;
+  bottom: 0;
+}
+.enhanced-cat-title h3 {
+  color: var(--color-primary);
+  font-weight: bold ;
+  padding: 8px;
+}
+.irtiqa-grid-item .irtqia-grid-item-content {
+  position: absolute;
+  bottom: -100%;
+  transition: 0.5s;
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 10px 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .irtiqa-grid-item .irtqia-grid-item-content {
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+  }
+  .enhanced-cat-title {
+    display: none;
+  }
+}
+.irtiqa-grid-item:hover .irtqia-grid-item-content {
+  bottom: 0;
+}
+.irtqia-grid-item-content>h3 {
+  font-weight: bold;
+  color: var(--color-primary);
+  font-size: 17px;
+  line-height: 2;
+}
+.irtiqa-grid-item .irtqia-grid-item-content p {
+  line-height: 1.5;
+  font-size: 13px;
+  color: var(--color-primary-l);
+}
+a.enhanced-cat-btn {
+  background: var(--color-primary);
+  color: white;
+  padding: 4px 20px;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+/* End [Irtiqa Grid Section] */
