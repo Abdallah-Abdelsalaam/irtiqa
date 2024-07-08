@@ -814,12 +814,6 @@
             "path": "home.enhanced-custome-banner",
             "fields": [
                 {
-                    "type": "static",
-                    "format": "description",
-                    "id": "with-bg",
-                    "value": "<div style='padding-top:10px;margin-bottom:30px;border:1px solid #ebebeb;border-radius:5px;text-align:center;overflow:hidden'><h6 style='margin-bottom:10px'>معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/square-photos.jpg?v=1.1'></div>"
-                },
-                {
                     "id": "image",
                     "type": "string",
                     "format": "image",
@@ -985,6 +979,32 @@
                     "required": false,
                     "minLength": 6,
                     "maxLength": "150"
+                },
+                {
+                    "id": "akhtr_shkl_otqset_altsnefat",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "اختر شكل وتقسية التصنيفات",
+                    "description": "اختر الشكل المميز لك",
+                    "labelHTML": "<div ><h6 >معاينة العنصر</h6><img src='https://cdn.salla.network/images/themes/raed/square-photos.jpg?v=1.1'></div>",
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [
+                        {
+                            "label": "شكل مميز بال grid",
+                            "value": "cat_01",
+                            "key": "eca6f349-6541-4ea9-9284-342709b88cf6"
+                        },
+                        {
+                            "label": "شكل مرتب بال grid",
+                            "value": "cat_02",
+                            "key": "779f20e9-4f95-4908-97bb-4b9d46750a02"
+                        }
+                    ],
+                    "source": "Manual",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false
                 },
                 {
                     "id": "collection_abd_01",
