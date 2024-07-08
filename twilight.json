@@ -986,17 +986,17 @@
                     "format": "dropdown-list",
                     "label": "اختر شكل وتقسية التصنيفات",
                     "description": "اختر الشكل المميز لك",
-                    "labelHTML": "<div ><h6 >معاينة العنصر</h6><img src='https://wordpress-912986-4607396.cloudwaysapps.com/wp-content/uploads/2024/07/متجر-تجريبي-2.png'></div><div ><h6 >معاينة العنصر</h6><img src='https://wordpress-912986-4607396.cloudwaysapps.com/wp-content/uploads/2024/07/متجر-تجريبي-1.png'></div>",
+                    "labelHTML": "<div ><h6 >معاينة العنصر</h6><img   src='https://wordpress-912986-4607396.cloudwaysapps.com/wp-content/uploads/2024/07/متجر-تجريبي-2.png'></div><div ><img  src='https://wordpress-912986-4607396.cloudwaysapps.com/wp-content/uploads/2024/07/متجر-تجريبي-1.png'></div>",
                     "icon": "sicon-keyboard_arrow_down",
                     "selected": [],
                     "options": [
                         {
-                            "label": "شكل مميز بال grid",
+                            "label": "شكل مميز رقم 1 بال grid",
                             "value": "cat_01",
                             "key": "eca6f349-6541-4ea9-9284-342709b88cf6"
                         },
                         {
-                            "label": "شكل مرتب بال grid",
+                            "label": "شكل مميز رقم 2 بال grid",
                             "value": "cat_02",
                             "key": "779f20e9-4f95-4908-97bb-4b9d46750a02"
                         }
