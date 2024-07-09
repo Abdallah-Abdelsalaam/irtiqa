@@ -2,6 +2,56 @@ body *:not(i) {
   font-family: 'Cairo' !important ;
 }
 
+/*Start [Header]*/
+div#mainnav {
+  padding-top: 0.5rem;
+}
+@media (min-width: 1024px) {
+  ul.main-menu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .main-menu li.root-level > a {
+    background: rgba(230, 239, 253, 1);
+    margin-left: 10px;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+  }
+}
+i.header-btn__icon.icon.sicon-shopping-bag {
+  background: var(--color-primary);
+  color: var(--color-grey);
+  border: 0px;
+}
+salla-cart-summary {
+  padding: 8px 15px;
+  background: #eee;
+  border-radius: 30px;
+}
+@media (max-width: 992px) {
+  salla-cart-summary {
+    padding: 8px 11px;
+    margin-right: 10px !important;
+}
+}
+div.fixed-header > .inner {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.main-nav-container.fixed-pinned .main-menu > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+i.sicon-menu {
+  background: var(--color-primary);
+  color: var(--color-grey);
+  padding: 8px;
+  border-radius: 50%;
+}
+/*End [Header]*/
+
+
 /*Start [Enhanced Custome banner with category]*/
 .enhances-custome-banner .banner-content {
   position: absolute;
@@ -91,6 +141,11 @@ body *:not(i) {
   margin-top: 10px;
   font-size: 14px;
   color: var(--color-primary);
+  transition: 0.5s;
+}
+.enhanced-banner-grid .enhanced-item > div:nth-child(2) > a:hover {
+  background: var(--color-primary);
+  color: var(--color-grey);
 }
 .enhanced-banner-grid .enhanced-item > div:nth-child(2) > h3 {
   color: var(--color-primary);
