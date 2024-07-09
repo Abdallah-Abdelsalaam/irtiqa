@@ -346,3 +346,88 @@ a.enhanced-cat-btn {
   border-radius: 10px;
 }
 /* End [Irtiqa Grid Section] */
+
+/* Start [Start Footer] */
+
+.store-footer h3 {
+  color: var(--color-primary);
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+.store-footer .store-footer__inner {
+  background-color: rgb(230 239 253) !important;
+  border-radius: 100px 100px 0px 0px;
+}
+span.s-contacts-icon, .s-social-link a{
+  background: var(--color-primary);
+  color: var(--color-grey);
+  border: 0px;
+  width: 3rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 992px) {
+  salla-social.s-social-list {
+    justify-content: center;
+}
+.s-contacts-list.s-contacts-list-vertical {
+  padding-right: 2rem;
+}
+.store-footer h3 {
+  text-align: center;
+}
+.s-contacts-list.s-contacts-list-vertical {
+  padding-top: 1.6rem;
+}
+footer > div.store-footer__inner > div > div > a {
+  justify-content: center;
+}
+footer > div.store-footer__inner > div > div > p {
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.store-footer .store-footer__inner {
+  border-radius: 70px 70px 0px 0px;
+}
+}
+.store-footer h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  width: 80px;
+  height: 4px;
+  background: var(--color-primary);
+  border-radius: 8px;
+  z-index: 2;
+}
+.store-footer h3::after {
+  content: "";
+  position: absolute;
+  bottom: 1.5px;
+  right: 0;
+  width: 190px;
+  height: 1px;
+  background: #a7c5ff;
+  z-index: 1;
+}
+@media (max-width:992px) {
+  .store-footer h3::before {
+    content: "";
+    position: absolute;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .store-footer h3::after {
+    content: "";
+    right: 50%;
+    transform: translateX(50%);
+}
+}
+.s-apps-icons-list {
+  justify-content: center;
+  padding-top: 1rem;
+}
+/* End [Start Footer] */
