@@ -1230,6 +1230,13 @@
                     "maxLength": "200"
                 }
             ]
+        },
+        {
+            "key": "aabf9cbd-1404-4eec-9c63-a5d3c2994821",
+            "title": "منتجات متحركة مميزة مع تصميم",
+            "icon": "sicon-shopping-bag2",
+            "path": "home.irtiqa_enhanced_slider_product",
+            "fields": []
         }
     ],
     "support_url": null,
