@@ -1230,56 +1230,6 @@
                     "maxLength": "200"
                 }
             ]
-        },
-        {
-            "key": "fc826f28-039d-4ea5-94a7-9b4efc8b5693",
-            "title": "سلايدر متقدم",
-            "icon": "sicon-frame-image",
-            "path": "home.enhancedSlider",
-            "fields": [
-                {
-                    "id": "slider",
-                    "type": "number",
-                    "format": "slider",
-                    "inputType": "range",
-                    "label": "Slider",
-                    "description": null,
-                    "labelHTML": null,
-                    "icon": "sicon-pin",
-                    "value": 0,
-                    "required": false,
-                    "step": 2.5,
-                    "minimum": -50,
-                    "maximum": 50
-                },
-                {
-                    "id": "collection",
-                    "type": "collection",
-                    "format": "collection",
-                    "label": "Collection",
-                    "description": null,
-                    "labelHTML": null,
-                    "item_label": null,
-                    "icon": "sicon-list-add",
-                    "fields": [
-                        {
-                            "id": "collection.image",
-                            "type": "string",
-                            "format": "image",
-                            "label": "Image",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "e.g. https://hostname.com/image.png",
-                            "icon": "sicon-image",
-                            "value": null,
-                            "required": false
-                        }
-                    ],
-                    "value": [],
-                    "minLength": 1,
-                    "maxLength": 5
-                }
-            ]
         }
     ],
     "support_url": null,
